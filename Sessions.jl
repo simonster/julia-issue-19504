@@ -1,6 +1,5 @@
 module Sessions
-using JSON, Compat, JLD, NeuroIO
-import Compat.String
+using JSON
 export Paradigm, Session, ChannelMetadata, ClusterMetadata, sessions,
        singlenev, nevstem, hascrash, hasrestart, isincluded, channels,
        channelmua, clusters, clustersua, filtereddatafile, metadatafile,

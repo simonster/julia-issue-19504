@@ -1,5 +1,5 @@
 module ComputeMUA
-using Extract, Sessions, JLD, JSON
+using Extract, Sessions, JLD
 
 function compute_mua()
     sess = sessions()
