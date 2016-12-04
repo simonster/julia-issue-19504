@@ -8,7 +8,7 @@ export Paradigm, Session, ChannelMetadata, ClusterMetadata, sessions,
 
 const RECORDINGS_DIR = dirname(@__FILE__)
 const DENOISED_DIR = "/mnt/data/patty_recordings_denoised"
-const DATA_DIR = "/mnt/data/patty_recordings_data"
+const DATA_DIR = dirname(@__FILE__)
 const IT_REGIONS = Set([:IT_VP])
 
 immutable Paradigm
